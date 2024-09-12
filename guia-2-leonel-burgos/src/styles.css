@@ -1,1 +1,117 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+    --fuenteTitulo: 2rem;
+    --color_tituloh2: #ff4900;
+    --fuenteparrafo: 1rem;
+    --color_parrafo: #0093FF;
+    --fuenteparrafo2: 12px;
+    --color_parrafo2: #c500ff;
+    --fuente: Nerko One;
+    --colorEncabezado: #000000; 
+    --colorletraEncabezado: #ffffff ;
+    --fuenteEncabezado: 1.5rem;
+    --colorfila1-3: #bec1c3;
+    --colorfuente1-3: #000000; 
+    --colorfila2: #045795;
+    --colordivcontenedor: #3f97d0;
+    --anchocont: 1200px;
+    --altocont: 700px;
+    --colordivhead: #ee7530;
+    --anchodivhead: 100%;
+    --alturadivhead:100px;
+    --colordivhead1: #cd595c;
+    --colordivhead2: #bec1c3;
+    --anchodivhead1: 150px;
+    --anchodivhead2: 270px;
+    --altodivhead1-2: 50px;
+}
+
+.titulos {
+    color: var(--color_tituloh2);
+    font-size: var(--fuenteTitulo);
+}
+
+.parrafo{
+    color: var(--color_parrafo);
+    font-size: var(--fuenteparrafo);
+}
+
+.parrafo2{
+    color: var(--color_parrafo2);
+    font-size: var(--fuenteparrafo2);
+    font-family: var(--fuente);
+}
+
+a {
+    color: #001bff;
+    font-weight: bold; 
+    text-decoration: none; 
+}
+
+a:visited {
+    color: #4CAF50;
+}
+
+a:hover {
+    color: #ff6600; 
+    text-decoration: underline;
+}
+
+.encabezado{
+    background-color: var(--colorEncabezado);
+    color: var(--colorletraEncabezado);
+    font-size: var(--fuenteEncabezado);
+}
+
+.fila1-3{
+    background-color: var(--colorfila1-3);
+    color: var(--colorfuente1-3);
+    font-size: var(--fuenteEncabezado);
+}
+
+.fila2{
+    background-color: var(--colorfila2);
+    color: var(--colorletraEncabezado);
+    font-size: var(--fuenteEncabezado);
+}
+
+.contenedor{
+ background-color: var(--colordivcontenedor);
+ width:var(--anchocont);
+ height: var(--altocont);
+ margin: auto;
+}
+
+.divhead{
+    background-color: var(--colordivhead);
+    width: var(--anchodivhead);
+    top: 0;
+    height: var(--alturadivhead);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divhead1{
+    background-color: var(--colordivhead1);
+    width: var(--anchodivhead1);
+    height: var(--altodivhead1-2);
+    margin-left: 50px;
+}
+
+.divhead2{
+    background-color: var(--colordivhead2);
+    width: var(--anchodivhead2);
+    height: var(--altodivhead1-2);
+    margin-right: 50px;
+}
+
+.parrafodiv {
+    margin-left: 80px;
+    font-size: var(--fuenteEncabezado); 
+    align-items: center;
+}
+
+i{
+    font-size: 50px; 
+    margin: auto;
+}

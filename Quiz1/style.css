@@ -1,0 +1,131 @@
+.main-container{
+    background-color: #913554;
+    width: 1200px;
+    height: 650px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    display:block;
+}
+.header-container{
+    background-color: #e5f041;
+    width: 98%;
+    margin: 15px;
+    display: flex;
+    height: 100px;
+    border-radius: 10px;
+}
+.logo-img{
+    background-color: #63df65;
+    width: 150px;
+    height: 50%;
+    margin: 20px;
+    border-radius: 10px;
+}
+.parrafo{
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 200px;
+}
+.social-container{
+    background-color:#d7ded7;
+    width: 300px;
+    height: 60%;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    border-radius: 10px;
+}
+.fb{
+    background-color: #505350;
+    height: 70%;
+    width: 40px;
+    margin: 10px;
+    margin-left: 70px;  
+    border-radius: 10px;
+}
+.in{
+    background-color: #505350;
+    height: 70%;
+    width: 40px;
+    margin: 10px;  
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.yb{
+    background-color: #505350;
+    height: 70%;
+    width: 40px;
+    margin: 10px;  
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.nav-container{
+    background-color: #3c443c;
+    width: 96.5%;
+    margin: 15px;
+    display: flex;
+    height: 100px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.buttons-container{
+    background-color: #367cc6;
+    width: 98%;
+    margin: 10px;
+    display: flex;
+    height: 80%;
+    border-radius: 10px;
+}
+.buttons{
+    background-color: #b6af2b;
+    width: 130px;
+    margin: 15px;
+    margin-left: 65px;
+    height: 60%;
+    border-radius: 10px;
+}
+.slider-content{
+    background-color: #3c443c;
+    width: 96.5%;
+    margin: 15px;
+    height: 180px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.features-container{
+    background-color: #eeedd8;
+    width: 96.5%;
+    margin: 15px;
+    display: flex;
+    height: 150px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.feat-1{
+    background-color: #785038;
+    width: 200px;
+    margin: 15px;
+    margin-left: 100px;
+    height: 70%;
+    border-radius: 10px;
+    padding: 10px;
+}
+.feat-2{
+    background-color: #785038;
+    width: 200px;
+    margin: 15px;
+    margin-left: 100px;
+    height: 70%;
+    border-radius: 10px;
+    padding: 10px;
+}
+.feat-3{
+    background-color: #785038;
+    width: 200px;
+    margin: 15px;
+    margin-left: 100px;
+    height: 70%;
+    border-radius: 10px;
+    padding: 10px;
+}
